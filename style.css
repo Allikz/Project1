@@ -204,6 +204,16 @@ nav > a:hover {
     object-fit: cover;
     margin: 0 auto;
   }
+
+  .home-bottum {
+    text-align: center;
+    color: chocolate;
+  }
+
+  .text-center {
+    text-align: center;
+  }
+
   .Conclusion {
     padding-left: 3%;
     margin-bottom: 2%;
