@@ -74,6 +74,10 @@
     box-shadow: 0 2px 4px rgba(0, 0, 0, 0.1);
     margin-bottom: 1%;
     }
+
+    .art-margin {
+        margin-bottom: 1%;
+    }
   
     h1 {
     color: #333;
@@ -99,8 +103,11 @@
     align-items: center;
     flex-wrap: nowrap;
     flex-direction: column;
-    
-  }
+    }
+
+    .inv-header {
+        color: chocolate;
+    }
   
   .field-img {
     padding: 1%;
