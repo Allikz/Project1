@@ -59,6 +59,12 @@
   #article > h1, h2 {
     margin-top: 4%;
   }
+
+  #article-header {
+    color: chocolate;
+    text-align: center;
+    margin-bottom: 3%;
+  }
   
   .article-style {
     max-width: max-content;
@@ -66,6 +72,7 @@
     padding: 20px;
     background-color: white;
     box-shadow: 0 2px 4px rgba(0, 0, 0, 0.1);
+    margin-bottom: 1%;
     }
   
     h1 {
@@ -87,12 +94,12 @@
   
   #inventions {
     color: black;
-    padding-top: 2%; 
     text-align: center;
     display: flex;
     align-items: center;
     flex-wrap: nowrap;
     flex-direction: column;
+    
   }
   
   .field-img {
