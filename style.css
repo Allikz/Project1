@@ -21,6 +21,24 @@
   #introduction {
     padding-left: 3%;
   }
+
+  nav > a {
+	text-decoration: none;
+	color: chocolate;
+	margin: 1rem;
+}
+
+.text-right {
+    text-align: right;
+}
+
+.text-uppercase {
+    text-transform: uppercase;
+}
+
+nav > a:hover {
+	color: black;
+}
   
   .container {
     position: relative;
@@ -39,12 +57,13 @@
   }
   
   .background-img {
-    width: 100%;
+    width: 110%;
     height: 300px;
     object-fit: cover;
     object-position: 10px 40%;
     margin-left: -15px;
     opacity: 0.4;
+    margin-bottom: -0.3%;
   }
   
   
