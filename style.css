@@ -101,3 +101,9 @@ header {
   .field-img {
     padding: 1%;
   }
+
+  #info {
+    color: silver;
+    text-align: center;
+    padding-bottom: 2%;
+  }
