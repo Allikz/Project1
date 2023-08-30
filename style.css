@@ -296,7 +296,7 @@
   .a-link {
     margin-right: 1%;
     margin-left: 1%;
-    color: rgb(190, 131, 89);
+    color: rgb(193, 111, 209);
   }
 
   .facebook {
@@ -310,6 +310,10 @@
 
   .twitter {
     margin-left: 0.5%;
+  }
+
+  .link-dec {
+    color: rgb(190, 131, 89);
   }
 
 
