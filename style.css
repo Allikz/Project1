@@ -34,10 +34,14 @@
 	margin: 1%;
   }
 
-.sticky {
-  position: sticky;
-  top: 0%;
-}
+  .sticky-nav {
+    position: sticky;
+    top: 0;
+    background-color: #000000; 
+    z-index: 100;
+  }
+
+
 
 .text-right {
     text-align: right;
@@ -270,6 +274,24 @@
     padding: 10px;
   }
 
+  .social-media {
+    padding-top: 1%;
+  }
+
+  .footer-p {
+    color: silver;
+  }
+
+  .a-link {
+    margin-right: 1%;
+    margin-left: 1%;
+  }
+
+  
+
+  
+
+  
 
 
   
