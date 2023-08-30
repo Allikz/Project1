@@ -286,12 +286,7 @@
     margin: 1%;
   }
 
-  footer > a {
-    color: rgb(175, 95, 38);
-    text-decoration: none;
-    padding: 0 15px;
-    font-size: 0.8rem;
-  }
+  
 
   a:hover {
     text-decoration: none;
