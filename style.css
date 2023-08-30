@@ -31,7 +31,12 @@
   #nav > a {
 	text-decoration: none;
 	color: chocolate;
-	margin: 1rem;
+	margin: 1%;
+  }
+
+.sticky {
+  position: sticky;
+  top: 0%;
 }
 
 .text-right {
@@ -42,8 +47,8 @@
     text-transform: uppercase;
 }
 
-nav > a:hover {
-	color: black;
+#nav > a:hover {
+	color:silver;
 }
   
   .container {
@@ -161,6 +166,12 @@ nav > a:hover {
   .box p {
     margin-bottom: 0;
   }
+
+  .frame {
+    border:gray;
+    margin-top: 0.5%;
+    border-style: solid;
+  }
   
   #timeline {
     color:rgb(175, 95, 38);
@@ -227,11 +238,19 @@ nav > a:hover {
   nav > a {
     text-decoration: none;
     color:rgb(175, 95, 38);
-    margin: 50%;
+   
+  }
+
+  .home-nav {
+    margin-left: 50%;
+  }
+
+  .black-background {
+    background-color: black;
   }
   
   nav > a:hover {
-    color: black;
+    color: silver;
   }
 
   
@@ -250,7 +269,9 @@ nav > a:hover {
     text-align: center;
     padding: 10px;
   }
-  
+
+
+
   
   
   

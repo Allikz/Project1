@@ -5,6 +5,7 @@
     <meta name="viewport" content="width=device-width initial-scale=1.0" />
     <title>Leonardo da Vinci: The Renaissance Polymath</title>
     <link href="style.css" rel="stylesheet" type="text/css" />
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.4.2/css/all.min.css">
   </head>
 
   <body>
@@ -15,7 +16,7 @@
         </h1>
         <img
           class="background-img"
-          src="https://img.freepik.com/premium-photo/creation-adam-painting_14865-606.jpg?size=626&ext=jpg"
+          src="assets/images/creation.avif"
           alt="structure"
         />
       </div>
@@ -31,13 +32,16 @@
           surrounding the life and achievements of Leonardo da Vinci.
         </p>
       </section>
-
+      
+      <div id="nav">
+      <div class="sticky"></div>
       <nav id="nav" class="black-background text-uppercase text-right">
         <a href="#inventions" aria-label="Go to invention">Inventions</a>
         <a href="#timeline" aria-label="go to timeline of Events"
-          >Timeline of Events</a
-        >
+          >Timeline of Events</a>
       </nav>
+    </div>
+ 
 
       <article>
         <div id="article" class="article-style">
@@ -123,7 +127,7 @@
 
           <img
             class="field-img"
-            src="https://www.leonardodavincisinventions.com/wp-content/uploads/2022/04/leonardo-da-vinci-helicopter-300x207-1.jpeg?ezimgfmt=rs:292x201/rscb1/ngcb1/notWebP"
+            src="assets/images/helicopter.webp"
             alt="Helicopter drawn on paper"
           />
           <p>
@@ -156,7 +160,7 @@
           </p>
           <img
             class="field-img"
-            src="https://www.leonardodavincisinventions.com/wp-content/uploads/2022/03/leonardo-da-vinci-ball-bearing-1.jpg?ezimgfmt=rs:192x152/rscb1/ng:webp/ngcb1"
+            src="assets/images/ball-bearing.webp"
             alt="Ball Bearing drawn on paper"
           />
         </div>
@@ -174,7 +178,7 @@
           </p>
           <img
             class="field-img"
-            src="https://www.leonardodavincisinventions.com/wp-content/uploads/2022/11/Anemometer-300x157.png?ezimgfmt=rs:292x153/rscb1/ng:webp/ngcb1"
+            src="assets/images/Anemometer.webp"
             alt="Anemometer drawn on paper"
           />
           <p>
@@ -197,9 +201,10 @@
         </div>
       </fieldset>
 
-      <h4 id="timeline">Timeline of Events</h4>
-      <details>
-        <summary class="summary">See Events</summary>
+      
+      <section class="frame">
+        <h4 id="timeline">Timeline of Events</h4>
+        <div class="summary">See events</div>
         <ul class="timeline-list">
           <li>
             <div class="timeline-date">April 15, 1452</div>
@@ -234,7 +239,7 @@
             </div>
           </li>
         </ul>
-      </details>
+      
 
       <section id="Masterpieces">
         <div class="Masterpieces-box">
@@ -249,21 +254,21 @@
         </div>
         <div class="evidence-images">
           <img
-            src="https://img.freepik.com/premium-photo/leonardo-da-vinci-statue-genius-located-front-uffizi-gallery-florence-italy-public-area_521059-8116.jpg?w=740"
+            src="assets/images/leonardo-da-vinci-statue.avif"
             alt="Leonardo da Vinci statue"
           />
           <img
-            src="https://cdn.pixabay.com/photo/2013/01/05/21/02/art-74050_640.jpg"
+            src="assets/images/Mona lisa.jpg"
             alt="Mona Lisa picture"
           />
         </div>
       </section>
     </main>
 
-    <nav class="black-background text-uppercase">
-      <a href="#home" aria-label="Go to the top of the page"> Home</a>
-      
+    <nav class="text-uppercase">
+      <a href="#home" aria-label="Go to the top of the page" class="home-nav">Home <i class="fa-solid fa-arrow-up"></i></a>
     </nav>
+  
 
     <div class="Conclusion">
       <h4>Conclusion</h4>
